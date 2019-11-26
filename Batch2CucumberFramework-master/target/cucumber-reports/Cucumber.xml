@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="40.418498">
+    <testcase classname="login Funnctionality" name="test login" time="10.881763">
+        <system-out>
+            <![CDATA[Given launch web browser....................................................passed
+When user input username"Tester"............................................passed
+And password "test".........................................................passed
+Then User validate login "Web Orders".......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="login Funnctionality" name="test login 2" time="9.893237">
+        <system-out>
+            <![CDATA[Given launch web browser....................................................passed
+When user input username"Tester"............................................passed
+And password "1234".........................................................passed
+Then User validate login "Web Orders Login".................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="login Funnctionality" name="test login 3" time="9.822422">
+        <system-out>
+            <![CDATA[Given launch web browser....................................................passed
+When user input username"test"..............................................passed
+And password "test".........................................................passed
+Then User validate login "Web Orders Login".................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="login Funnctionality" name="test login 4" time="9.821076">
+        <system-out>
+            <![CDATA[Given launch web browser....................................................passed
+When user input username"test"..............................................passed
+And password "1234".........................................................passed
+Then User validate login "Web Orders Login".................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

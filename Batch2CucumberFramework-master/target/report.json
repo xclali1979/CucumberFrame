@@ -1,0 +1,690 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1782331581,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Validate Etsy Search message",
+        "description": "",
+        "id": "etsy-search-functionality;validate-etsy-search-message;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 105479061,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2966259109,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate Etsy Homepage",
+            "match": {
+              "location": "EtsySteps.navigate_Etsy_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3160017105,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User searches for \"carpet\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "carpet",
+                  "offset": 19
+                }
+              ],
+              "location": "EtsySteps.user_searches_for(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64152240,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Validate search message have word \"carpet\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "carpet",
+                  "offset": 35
+                }
+              ],
+              "location": "EtsySteps.validate_search_message_have_word(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@TEC-103"
+          },
+          {
+            "line": 4,
+            "name": "@TECTC-1011"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1079987392,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Validate Etsy Search message",
+        "description": "",
+        "id": "etsy-search-functionality;validate-etsy-search-message;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 104065306,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2745542182,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate Etsy Homepage",
+            "match": {
+              "location": "EtsySteps.navigate_Etsy_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2569622103,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User searches for \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123",
+                  "offset": 19
+                }
+              ],
+              "location": "EtsySteps.user_searches_for(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60032364,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Validate search message have word \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123",
+                  "offset": 35
+                }
+              ],
+              "location": "EtsySteps.validate_search_message_have_word(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@TEC-103"
+          },
+          {
+            "line": 4,
+            "name": "@TECTC-1011"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1029949372,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Validate each department of Etsy has valid title",
+        "description": "",
+        "id": "etsy-search-functionality;validate-each-department-of-etsy-has-valid-title;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 106775572,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3072309968,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Navigate Etsy Homepage",
+            "match": {
+              "location": "EtsySteps.navigate_Etsy_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2612767180,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on \"Jewelry \u0026 Accessories\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jewelry \u0026 Accessories",
+                  "offset": 16
+                }
+              ],
+              "location": "EtsySteps.user_clicks_on(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34890283,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User validate title \"Jewelry \u0026 Accessories | Etsy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jewelry \u0026 Accessories | Etsy",
+                  "offset": 21
+                }
+              ],
+              "location": "EtsySteps.user_validate_title(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@TEC-103"
+          },
+          {
+            "line": 14,
+            "name": "@TECTC-1012"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1035617218,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Validate each department of Etsy has valid title",
+        "description": "",
+        "id": "etsy-search-functionality;validate-each-department-of-etsy-has-valid-title;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 112140833,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2778756861,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Navigate Etsy Homepage",
+            "match": {
+              "location": "EtsySteps.navigate_Etsy_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2960455021,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on \"Clothing \u0026 Shoes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Clothing \u0026 Shoes",
+                  "offset": 16
+                }
+              ],
+              "location": "EtsySteps.user_clicks_on(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39888101,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User validate title \"Clothing \u0026 Shoes | Etsy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Clothing \u0026 Shoes | Etsy",
+                  "offset": 21
+                }
+              ],
+              "location": "EtsySteps.user_validate_title(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@TEC-103"
+          },
+          {
+            "line": 14,
+            "name": "@TECTC-1012"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1048453029,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Validate each department of Etsy has valid title",
+        "description": "",
+        "id": "etsy-search-functionality;validate-each-department-of-etsy-has-valid-title;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 109344508,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2910127684,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Navigate Etsy Homepage",
+            "match": {
+              "location": "EtsySteps.navigate_Etsy_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3170054673,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on \"Home \u0026 Living\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Home \u0026 Living",
+                  "offset": 16
+                }
+              ],
+              "location": "EtsySteps.user_clicks_on(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34258916,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User validate title \"Home \u0026 Living | Etsy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Home \u0026 Living | Etsy",
+                  "offset": 21
+                }
+              ],
+              "location": "EtsySteps.user_validate_title(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@TEC-103"
+          },
+          {
+            "line": 14,
+            "name": "@TECTC-1012"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1038539565,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Validate each department of Etsy has valid title",
+        "description": "",
+        "id": "etsy-search-functionality;validate-each-department-of-etsy-has-valid-title;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 111715606,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2925261748,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Navigate Etsy Homepage",
+            "match": {
+              "location": "EtsySteps.navigate_Etsy_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2843412263,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on \"Wedding \u0026 Party\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Wedding \u0026 Party",
+                  "offset": 16
+                }
+              ],
+              "location": "EtsySteps.user_clicks_on(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5798403,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User validate title \"Wedding \u0026 Party | Etsy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Wedding \u0026 Party | Etsy",
+                  "offset": 21
+                }
+              ],
+              "location": "EtsySteps.user_validate_title(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@TEC-103"
+          },
+          {
+            "line": 14,
+            "name": "@TECTC-1012"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1036044860,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Validate each department of Etsy has valid title",
+        "description": "",
+        "id": "etsy-search-functionality;validate-each-department-of-etsy-has-valid-title;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 107207346,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2711494678,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Navigate Etsy Homepage",
+            "match": {
+              "location": "EtsySteps.navigate_Etsy_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2552079237,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on \"Toys \u0026 Entertainment\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Toys \u0026 Entertainment",
+                  "offset": 16
+                }
+              ],
+              "location": "EtsySteps.user_clicks_on(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34228034,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User validate title \"Toys \u0026 Entertainment | Etsy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Toys \u0026 Entertainment | Etsy",
+                  "offset": 21
+                }
+              ],
+              "location": "EtsySteps.user_validate_title(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@TEC-103"
+          },
+          {
+            "line": 14,
+            "name": "@TECTC-1012"
+          }
+        ]
+      }
+    ],
+    "name": "Etsy Search Functionality",
+    "description": "",
+    "id": "etsy-search-functionality",
+    "keyword": "Feature",
+    "uri": "EtsySearchFunctionality.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@TEC-103"
+      }
+    ]
+  }
+]
